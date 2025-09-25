@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Real state website</title>
+  </head>
+  <body>
+    <header>
+  <div class="navcontainer">
+    <nav class="navbar navbar-expand-lg">
+      
+      <a class="navbar-brand" href="index.html">
+        <img src="image/lOGO.png" alt="Logo" />
+      </a>
+
+      <!-- Offcanvas Hamburger -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Properties</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Button -->
+      <a href="#" class="btn btn-dark-custom d-none d-lg-block">Contact Now</a>
+    </nav>
+  </div>
+</header>
+
+
+<div
+  class="offcanvas offcanvas-end"
+  tabindex="-1"
+  id="offcanvasNavbar"
+  aria-labelledby="offcanvasNavbarLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Properties</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+       <a href="#" class="btn btn-dark-custom mt-3 ">Contact Now</a>
+    </ul>
+  </div>
+</div>
+
+
+    <!-- Banner Section------------------------------------------------------------------------ -->
+    <section class="banner">
+      <div class="container navcontainer">
+        <div class="row align-items-center">
+          <!-- Left content -->
+          <div class="col-lg-6 content">
+            <h1>Finding Your New Home Is Simple</h1>
+            <p class="par">
+              Lorem ipsum dolor sit amet consectetur. Vitae tempus diam risus est morbi senectus at tristique duis. Sit morbi risus pellentesque arcu. Bibendum malesuada aenean risus gravida scelerisque ornare. Purus.
+            </p>
+            <a href="#" class="btn btn-dark-custom">Contact Now</a>
+          </div>
+          <!-- Right side empty -->
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- card section ------------------------------------------------------------------->
+   <section class="card-section py-5">
+  <div class="container card-container text-center">
+    <!-- Heading -->
+    <h2 class="fw-bold mb-2">Most Viewed</h2>
+    <p class="mx-auto text-muted mb-5">
+      Discover a range of vacation homes worldwide. Book securely and get
+      expert customer support for a stress free stay
+    </p>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card property-card h-100">
+          <img src="image/1.png" class="card-img-top" alt="Ocean Breeze Villa" />
+          <div class="card-body text-start">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <small class="text-muted">
+                <i class="bi bi-geo-alt"></i> 47 W 13th St, New York, NY 10011, USA
+              </small>
+              <div class="d-flex gap-3">
+                <div><i class="fas fa-bed"></i> 4</div>
+                <div><i class="fas fa-bath"></i> 2</div>
+              </div>
+            </div>
+
+            <h5 class="fw-bold">Ocean Breeze Villa</h5>
+            <p class="fw-semibold text-dark">$910,000.00</p>
+
+            <!-- Anchors instead of buttons -->
+            <div class="d-flex gap-3">
+              <a href="#" class="btn btn-dark-custom flex-fill">Book Now</a>
+              <a href="#" class="btn btn-outline-dark btn-custom flex-fill">See Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card property-card h-100">
+          <img src="image/2.png" class="card-img-top" alt="Jackson House" />
+          <div class="card-body text-start">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <small class="text-muted">
+                <i class="bi bi-geo-alt"></i> 20 Cooper Square, New York, NY 10003, USA
+              </small>
+              <div class="d-flex gap-3">
+                <div><i class="fas fa-bed"></i> 4</div>
+                <div><i class="fas fa-bath"></i> 2</div>
+              </div>
+            </div>
+
+            <h5 class="fw-bold">Jackson House</h5>
+            <p class="fw-semibold text-dark">$750,000.00</p>
+
+            <div class="d-flex gap-3">
+              <a href="#" class="btn btn-dark-custom flex-fill">Book Now</a>
+              <a href="#" class="btn btn-outline-dark btn-custom flex-fill">See Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card property-card h-100">
+          <img src="image/3.png" class="card-img-top" alt="Lakeside Cottage" />
+          <div class="card-body text-start">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <small class="text-muted">
+                <i class="bi bi-geo-alt"></i> Metrotech Center, Brooklyn, NY 11201, USA
+              </small>
+              <div class="d-flex gap-3">
+                <div><i class="fas fa-bed"></i> 4</div>
+                <div><i class="fas fa-bath"></i> 2</div>
+              </div>
+            </div>
+
+            <h5 class="fw-bold">Lakeside Cottage</h5>
+            <p class="fw-semibold text-dark">$540,000.00</p>
+
+            <div class="d-flex gap-3">
+              <a href="#" class="btn btn-dark-custom flex-fill">Book Now</a>
+              <a href="#" class="btn btn-outline-dark btn-custom flex-fill">See Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View All Button -->
+    <div class="mt-5">
+      <a href="#" class="btn btn-dark-custom btn-lg rounded-3">View Our All Properties</a>
+    </div>
+  </div>
+</section>
+
+<!-- try-section------------------------------------------------------- -->
+    <section class="py-5 try-section">
+  <div class="container work-container">
+    <div class="row align-items-center">
+      
+      <!-- col1 ---------- -->
+      <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+        <div class="image-wrapper">
+          <img src="image/try now.png" alt="House" class="img-fluid shadow">
+        </div>
+      </div>
+
+      <!-- col2 -->
+      <div class="col-lg-6 col-md-12 try">
+        <h2 class="fw-semibold mb-3">The Easiest Method To Find a House</h2>
+        <p class="para text-muted mb-3">
+          Lorem ipsum dolor sit amet consectetur. Dui dolor pretium consectetur odio neque tincidunt eu sollicitudin pretium. Placerat molestie lacus fringilla interdum. Varius massa massa ipsum urna amet semper etiam urna. Ac eget eget semper laoreet tortor mi ullamcorper. Proin lobortis nunc nec nisl leo in enim. Nunc nec lorem iaculis sodales porta vivamus pulvinar lectus.
+        </p>
+        <p class="para text-muted mb-4">
+          Lorem ipsum dolor sit amet consectetur. Id donec vestibulum augue nunc nibh purus tempus. Leo sed dui id etiam. Dui enim volutpat urna egestas sed tellus pulvinar. Consectetur auctor tristique aenean quis quam.
+        </p>
+        <a href="#" class="btn btn-dark px-4 py-2">Try Now</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- work-section------------------------------------------------- -->
+
+<section class="py-5 work-section">
+  <div class="container work-container text-center">
+    
+    <h2 class="fw-bold mb-2">Our Work In 3 Steps</h2>
+    <p class="mx-auto text-muted mb-5" style="max-width: 600px;">
+      Discover a range of vacation homes worldwide. Book securely and get expert customer support for a stress free stay
+    </p>
+
+    <!--  Row -->
+    <div class="row justify-content-center align-items-center g-3">
+      
+      <!-- col 1 -->
+      <div class="col-auto">
+        <div class="step-card p-4 text-start">
+          <div class="icon-box mb-3">
+            <i class="fas fa-home"></i>
+          </div>
+          <h5 class="fw-bold">Research Phase</h5>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet consectetur. Urna purus ut elit vitae enim donec. Viverra consequat.
+          </p>
+        </div>
+      </div>
+
+      <!-- Arrow 1 -->
+      <div class="col-auto d-none d-lg-block">
+        <img src="image/Arrow 1.png" alt="Arrow" class="arrow-img">
+      </div>
+
+      <!-- col 2 -->
+      <div class="col-auto">
+        <div class="step-card p-4 text-start">
+          <div class="icon-box mb-3">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h5 class="fw-bold">Close the Deal</h5>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet consectetur. Urna purus ut elit vitae enim donec. Viverra consequat.
+          </p>
+        </div>
+      </div>
+
+      <!-- Arrow 2 -->
+      <div class="col-auto d-none d-lg-block">
+        <img src="image/Arrow 1.png" alt="Arrow" class="arrow-img">
+      </div>
+
+      <!-- col 3 -->
+      <div class="col-auto">
+        <div class="step-card p-4 text-start">
+          <div class="icon-box mb-3">
+            <i class="fas fa-key"></i>
+          </div>
+          <h5 class="fw-bold">Key Delivery</h5>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet consectetur. Urna purus ut elit vitae enim donec. Viverra consequat.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- elite-section---------------------------------------------------------------------- -->
+<section class="py-5 elite-section">
+  <div class="container elite-container text-center">
+    
+    
+    <h2 class="fw-bold mb-2">Explore Our Elite Agent</h2>
+    <p class="mx-auto text-muted mb-5">
+      Meet the epitome of excellence in real estate – our Elite <br> Agent, a standout professional in the industry.
+    </p>
+
+    
+    <div class="row g-4 justify-content-center">
+      
+      <!-- col 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="agent-card text-center">
+          <img src="image/image.png" alt="Grace Elizabeth" class="img-fluid rounded-3 mb-3">
+          <h5 class="fw-bold">Grace Elizabeth</h5>
+          <p class="text-muted">Manager</p>
+        </div>
+      </div>
+
+      <!-- col 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="agent-card text-center">
+          <img src="image/image (1).png" alt="Karlo Merlin" class="img-fluid rounded-3 mb-3">
+          <h5 class="fw-bold">Karlo Merlin</h5>
+          <p class="text-muted">Financial Analyst</p>
+        </div>
+      </div>
+
+      <!-- col 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="agent-card text-center">
+          <img src="image/image (2).png" alt="Lucy Mae" class="img-fluid rounded-3 mb-3">
+          <h5 class="fw-bold">Lucy Mae</h5>
+          <p class="text-muted">Developer</p>
+        </div>
+      </div>
+
+    </div>
+
+    
+    <div class="mt-5">
+      <a href="#" class="btn btn-dark px-4 py-2">View Our All Agents</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Section Agent------------------------------------------------------------------------ -->
+<section class="py-5 agent-section">
+  <div class="container custom-container">
+    <div class="row align-items-center g-4">
+
+      <!-- col1 -->
+      <div class="col-lg-6 col-md-12">
+        <h2 class="fw-bold mb-4">
+          Get the house in trust by <br> working with our agents
+        </h2>
+        <div class="d-flex align-items-start mb-3">
+          <div class="icon-box me-3">
+            <i class="fas fa-user"></i>
+          </div>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet consectetur. Leo platea tellus amet consectetur lorem sagittis a amet sit. Mauris in senectus felis mi tempus gravida erat massa.
+          </p>
+        </div>
+        <div class="d-flex align-items-start">
+          <div class="icon-box me-3">
+            <i class="fas fa-check"></i>
+          </div>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet consectetur. Leo platea tellus amet consectetur lorem sagittis a amet sit. Mauris in senectus felis mi tempus gravida erat massa.
+          </p>
+        </div>
+      </div>
+
+      <!-- col2 -->
+      <div class="col-lg-6 col-md-12">
+        <div class="image-wrapper">
+        <img src="image/image (3).png" alt="House" class="img-fluid rounded-3 shadow">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials---------------------------------------------- -->
+<section class="py-5 testimonial-section">
+  <div class="container custom-container text-center">
+    <h2 class="fw-bold mb-2">Testimonials from clients</h2>
+    <p class="text-muted mb-5">
+      Group One is excited to present this exceptional property in the prestigious location.
+    </p>
+    <div class="row g-4">
+      
+      <!-- col 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="testimonial-card p-4 h-100 text-start position-relative">
+          
+          <div class="stars text-dark position-absolute top-0 end-0 mt-3 me-3">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+          <img src="image/tes1.png" alt="Mr. Soumyadip Ghosh" 
+               class="rounded-circle mb-3" width="60" height="60">
+
+          <h6 class="fw-bold mb-2">Mr. Soumyadip Ghosh</h6>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet consectetur. Fringilla quisque arcu sagittis lectus nibh tellus sem.
+            Vivamus posuere ultrices maecenas enim. Laoreet massa at vitae et donec lacus nunc quis suscipit.
+          </p>
+        </div>
+      </div>
+
+      <!-- col 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="testimonial-card p-4 h-100 text-start position-relative">
+          <div class="stars text-dark position-absolute top-0 end-0 mt-3 me-3">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+          <img src="image/tes3.png" alt="Mr. Soumik Sen" 
+               class="rounded-circle mb-3" width="60" height="60">
+               <h6 class="fw-bold mb-2">Mr. Soumik Sen</h6>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet consectetur. Justo vivamus hendrerit risus sit elit proin amet.
+            Condimentum nibh fermentum semper bibendum faucibus purus ante ac.
+          </p>
+        </div>
+      </div>
+
+      <!-- col 3 -->
+      <div class="col-lg-4 col-md-6 mx-auto">
+        <div class="testimonial-card p-4 h-100 text-start position-relative">
+          <div class="stars text-dark position-absolute top-0 end-0 mt-3 me-3">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+          <img src="image/tes2.png" alt="Mrs. Manpreet Kaur" 
+               class="rounded-circle mb-3" width="60" height="60">
+               <h6 class="fw-bold mb-2">Mrs. Manpreet Kaur</h6>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet consectetur. Fringilla quisque arcu sagittis lectus nibh tellus sem.
+            Vivamus posuere ultrices maecenas enim. Laoreet massa at vitae et donec lacus nunc quis suscipit.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- blog section------------------------------------ -->
+<section class="py-5">
+  <div class="container container-custom text-center">
+    <h2 class="fw-bold">Our Recent Blogs</h2>
+    <p class="text-muted">Stay informed with our latest real estate insights</p>
+
+    <div class="row g-4 mt-4 justify-content-center">
+      <!-- col 1-------------------- -->
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="blog-card">
+          <img src="image/blog1.png" alt="Blog 1" class="blog-img">
+          <div class="blog-content">
+            <h5>Essential Steps for First-Time Homebuyers to Follow</h5>
+            <p>Lorem ipsum dolor sit amet consectetur. Eget euismod in cursus lobortis vel.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+      <!-- col 2-------------- -->
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="blog-card">
+          <img src="image/blog3.png" alt="Blog 2" class="blog-img">
+          <div class="blog-content">
+            <h5>Top Market Indicators Every Buyer Should Know & it is must</h5>
+            <p>Lorem ipsum dolor sit amet consectetur. Eget euismod in cursus lobortis vel.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+      <!-- col 3 -------->
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="blog-card">
+          <img src="image/blog2.png" alt="Blog 3" class="blog-img">
+          <div class="blog-content">
+            <h5>The Benefits of Diversifying Your Real Estate Portfolio</h5>
+            <p>Lorem ipsum dolor sit amet consectetur. Eget euismod in cursus lobortis vel.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer section----------------------------------------------------- -->
+
+<footer class="footer">
+  <div class="container container-custom">
+    
+<!-- frist row ------------------------------->
+    <div class="row mb-5 justify-content-center text-center text-md-start">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <h4>We’ll begin as a team.</h4>
+        <p>Crafting quality structures that stand the test of time.</p>
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+  
+      </div>
+      <div class="col-lg-4">
+        <h5>Newsletter</h5>
+        <form class="d-flex">
+          <input type="email" class="form-control newsletter-input me-2 " placeholder="Your E-mail">
+          <button class="subscribe-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Second Row -------------->
+<div class="row mb-5 justify-content-center text-center text-md-start">
+  
+  <div class="col-lg-3 col-md-6 mb-4 text-center text-md-start">
+  <a href="index.html" class="footer-logo-link">
+    <img src="image/lOGO.png" alt="Company Logo" class="footer-logo">
+  </a>
+  <p>
+    <a href="tel:+94235767090" class="footer-link">
+      <i class="fa-solid fa-phone me-2"></i>9-423-576-7090
+    </a>
+  </p>
+  <p>
+    <a href="mailto:info@plotland.com" class="footer-link">
+      <i class="fa-solid fa-envelope me-2"></i>info@plotland.com
+    </a>
+  </p>
+</div>
+
+ 
+  <div class="col-lg-3 col-md-6 mb-4 text-center text-md-start">
+    <h5>Company</h5>
+    <ul class="list-unstyled">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Properties</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  </div>
+
+  
+  <div class="col-lg-3 col-md-6 mb-4 text-center text-md-start ">
+    <h5>Our Address</h5>
+    <p class="Address"><i class="fa-solid fa-location-dot me-2"></i>36 East 8th Street, New York,<br>NY 10003, United States</p>
+  </div>
+
+  
+  <div class="col-lg-3 col-md-6 mb-4 text-center text-md-end">
+    <h5>Our Properties</h5>
+    <div class="properties d-flex flex-wrap justify-content-center justify-content-lg-end">
+      
+      <img src="image/op 1.png" alt="">
+      <img src="image/op2.png" alt="">
+      <img src="image/op3.png" alt="">
+    
+      <img src="image/op4.png" alt="">
+      <img src="image/op5.png" alt="">
+      <img src="image/op6.png" alt="">
+    </div>
+  </div>
+</div>
+
+    <hr>
+<!-- 3rd row--------------------- -->
+    
+    <div class="row align-items-center ">
+      <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+        <p class="mb-0">Copyright © PlotLand | Designed By Indrajit Roy</p>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <span class="me-2">Follow us on</span>
+        <div class="social-icons d-inline-block">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
